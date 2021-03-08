@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "projeto20196-c87a9": {
+      "hosting": {
+        "app": [
+          "projeto20196-c87a9"
+        ]
+      }
+    }
+  }
+}

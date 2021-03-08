@@ -1,6 +1,6 @@
 {
   "appId": "io.ionic.starter",
-  "appName": "app01",
+  "appName": "net.Ghesth.Teste",
   "bundledWebRuntime": false,
   "npmClient": "npm",
   "webDir": "www",
