@@ -1,0 +1,8 @@
+https://newsapi.org/v2/everything?apiKey=${this.apiKey}&source=google-news-br&language=pt&q=${this.apiQuery}
+
+
+48891edf9bde4474847bc7008e7b8fa0
+
+
+
+
