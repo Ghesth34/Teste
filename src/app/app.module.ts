@@ -38,4 +38,3 @@ import { AngularFireAuthModule } from '@angular/fire/auth';
   bootstrap: [AppComponent],
 })
 export class AppModule { }
-

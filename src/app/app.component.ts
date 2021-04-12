@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 // 1) Importa dependências
-import { AngularFireAuth } from '@angular/fire/auth';
+import { AngularFireAuth } from '@angular/fire/auth'; 
 
 @Component({
   selector: 'app-root',

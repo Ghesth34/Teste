@@ -9,7 +9,7 @@
 
 <ion-content class="ion-padding-horizontal">
 
-  <h2 *ngIf="auth.user | async user">
+  <h2 *ngIf="auth.user | async as user">
     Olá {{ user.displayName }}!
   </h2>
 
