@@ -3,12 +3,11 @@
     <ion-menu contentId="main-content" type="overlay">
       <ion-content>
         <ion-list id="inbox-list">
-          <div class="ion-text-center">
-            <img src="assets/KKKKK.jpg">
-          </div>
 
-          <ion-list-header>Informações para você</ion-list-header>
-          <ion-note> Para variar o seu dia.</ion-note>
+          <ion-img src="assets/logo01.png" class="menu-logo"></ion-img>
+
+          <ion-list-header class="ion-text-center">Fuinhas</ion-list-header>
+          <ion-note>Futucando onde não deve.</ion-note>
 
           <ion-menu-toggle auto-hide="false">
             <ion-item routerDirection="root" routerLink="/articles" lines="none" detail="false"
@@ -21,7 +20,7 @@
           <ion-menu-toggle auto-hide="false">
             <ion-item routerDirection="root" routerLink="/news" lines="none" detail="false" routerLinkActive="selected">
               <ion-icon slot="start" name="newspaper"></ion-icon>
-              <ion-label>Noticia</ion-label>
+              <ion-label>Notícias</ion-label>
             </ion-item>
           </ion-menu-toggle>
 
@@ -29,7 +28,7 @@
             <ion-item routerDirection="root" routerLink="/contacts" lines="none" detail="false"
               routerLinkActive="selected">
               <ion-icon slot="start" name="chatbubbles"></ion-icon>
-              <ion-label>Fale com a equipe </ion-label>
+              <ion-label>Faça Contato</ion-label>
             </ion-item>
           </ion-menu-toggle>
 
@@ -58,7 +57,7 @@
               </ion-avatar>
               <ion-label>
                 {{ user.displayName }}
-                <div><small>{{ user.email }}</small></div>
+                <div><small>{{ user.email }}</small></div>                
               </ion-label>
             </ion-item>
 
@@ -88,7 +87,7 @@
       </ion-content>
 
       <div class="ion-text-center ion-padding">
-        <small>&copy; Gabriel Carlos </small>
+        <small>&copy; Copyright 2021 André Luferat</small>
       </div>
 
     </ion-menu>
